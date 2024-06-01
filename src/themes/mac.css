@@ -1,0 +1,37 @@
+.notion-topbar {
+  -webkit-app-region: drag;
+}
+
+.notion-topbar [role="button"] {
+  -webkit-app-region: no-drag;
+}
+
+.window-controls {
+  display: flex;
+  width: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.window-controls > button {
+  border: none;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  height: 15px;
+  cursor: pointer;
+}
+
+.window-controls > button svg path {
+  fill: transparent;
+}
+
+#close {
+  background: #ff605c;
+}
+#minimize {
+  background: #ffbd44;
+}
+#maximize {
+  background: #00ca4e;
+}
